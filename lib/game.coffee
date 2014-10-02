@@ -13,7 +13,7 @@ app.io.route 'ready', (req) ->
     success: 'ready - ok'
   }
 
-app.use '/', express.static ('./client/dist')
+app.use '/', express.static ('./socket.io-simple-game-client/dist')
 
 app.use app.router
 
