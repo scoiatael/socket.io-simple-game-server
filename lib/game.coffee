@@ -1,6 +1,6 @@
 "use strict"
 
-port = 3000
+port = 4000
 
 express = require 'express.io'
 app = express()
